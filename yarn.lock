@@ -1948,6 +1948,7 @@ __metadata:
     "@courselit/icons": "workspace:^"
     "@courselit/state-management": "workspace:^"
     "@courselit/utils": "workspace:^"
+    "@types/next": ^9.0.0
     autoprefixer: ^10.4.14
     eslint: ^8.57.0
     eslint-plugin-n: ^15.2.0
@@ -6718,6 +6719,15 @@ __metadata:
   version: 0.7.31
   resolution: "@types/ms@npm:0.7.31"
   checksum: daadd354aedde024cce6f5aa873fefe7b71b22cd0e28632a69e8b677aeb48ae8caa1c60e5919bb781df040d116b01cb4316335167a3fc0ef6a63fa3614c0f6da
+  languageName: node
+  linkType: hard
+
+"@types/next@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "@types/next@npm:9.0.0"
+  dependencies:
+    next: "*"
+  checksum: 3115931293e1928df5ecd9d0cbf8b9edc9e2d7f67467db468f3d92dac7b44199706dbd4226c33193a7fcd3fe230a1ec2c796a1a585911d40be9fdaf47e8cb16e
   languageName: node
   linkType: hard
 
@@ -14955,7 +14965,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:^14.2.0":
+"next@npm:*, next@npm:^14.2.0":
   version: 14.2.4
   resolution: "next@npm:14.2.4"
   dependencies:
